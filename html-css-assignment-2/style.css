@@ -1,0 +1,55 @@
+@import url("https://fonts.google.com/specimen/Big+Shoulders?query=big+shoulders+display");
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: white;
+}
+h2 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+.triple {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  justify-content: center;
+  align-items: baseline;
+  padding: 140px;
+}
+article {
+  min-width: 150px;
+  max-width: 150px;
+  max-height: 300px;
+  min-height: 300px;
+  padding: 60px;
+}
+.sedans {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxuary {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#luxuarybtn {
+  color: hsl(179, 100%, 13%);
+}
+#suvbtn {
+  color: hsl(184, 100%, 22%);
+}
+#sedanbtn {
+  color: hsl(31, 77%, 52%);
+}
+button {
+  padding: 15px;
+  border-radius: 15px;
+  min-width: 100px;
+}
